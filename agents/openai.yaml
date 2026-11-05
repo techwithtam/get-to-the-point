@@ -1,0 +1,13 @@
+interface:
+  display_name: Get To The Point
+  short_description: Turn detailed work into a message a busy reader can act on
+  default_prompt: Use $get-to-the-point to rewrite my draft so my reader can act on it.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
