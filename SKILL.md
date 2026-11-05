@@ -1,45 +1,41 @@
 ---
 name: get-to-the-point
-description: Turn detailed work into a message a busy reader can act on. Use to write or edit an executive summary, status update, decision request, business case, escalation, proposal cover or meeting brief, or when a draft is too long, too detailed or buries the ask.
+description: Rewrite a long update, report, or request so the reader can act on it in minutes. Use when someone needs a decision, approval, or action from a busy reader, or says a draft is too long, too detailed, or hides what they need.
 ---
 
 # Get to the point
 
-Build the message backward from the outcome. The reader learns what is needed first, then why it matters, then what happens without action. The detail stays available and moves behind the message until a reader asks for it.
+Rewrite the user's draft so the reader sees what the user needs from them in the first three sentences. Keep the user's detail, and move it behind the message, where the reader can find it if they want it.
 
-The author has done the detailed work and knows every risk and qualification. The reader needs the conclusion of that work, at the level of detail their decision requires.
+People who know their work well tend to write down everything they know, in the order they learned it. Their reader usually has a few minutes and one question: what do you need from me?
 
 ## Steps
 
-1. **Profile the reader.** Name who will read this, what they care about, how much detail they usually want, what they must do with the message and who they must brief afterward. Ask the user only for what the draft does not show. Done when you can state the reader and the required action in one line.
-2. **Name the intent.** Choose one: inform, explore options or decide. If the draft does more than one, separate the purposes into different messages or sections and tell the user. Done when each message has one intent.
-3. **Write the core.** Write three short, specific sentences that state what is needed, why it matters and what happens without action. For an update with nothing to approve, state what happened, why it matters and what happens next. Done when the reader could act on those three sentences alone.
-4. **Answer first.** When the reader asked a direct question, open with the answer. State conditions and risks directly after it, and keep any real uncertainty. Done when the first sentence answers the question.
-5. **Sort the detail.** Place every remaining fact in one tier. Done when every fact has a tier.
-   - **Lead:** the reader needs it to act, so it stays in the message.
-   - **Support:** it explains the reasoning, so it goes below the core or in an attachment.
-   - **Reserve:** it answers a possible challenge, so it goes in the prepared answers.
-6. **Prepare for challenge.** List the questions this reader is most likely to ask, each with a short answer. Readers often test one detail to find out whether the author knows the work, and a clear answer raises their confidence in the rest. When a reader questions one detail, answer it and keep the opening as written unless the answer changes the decision. Done when each reserve fact sits under a likely question.
-7. **Tighten the language.** Replace jargon, acronyms and field terms the reader does not use. Test any sentence over about twelve words and split it if it carries more than one idea. Keep a longer sentence when splitting would lose a condition or a precise term. Done when the reader needs no translation.
-8. **Match the format.** Use writing to inform and discussion to explore options. For a decision, send the written background before the meeting and use the meeting to deliberate. An urgent message states what happened, why it matters and what happens without action, so the reader can act without a follow-up question. Done when the format fits the intent and the urgency.
-9. **Close the loop.** End with the specific next step and its owner. When a reply leaves the next step unclear, draft a follow-up that asks for it directly. After a decision, draft a short record of the decision, next steps and owners for the people affected. Done when a third person could see who does what next.
+1. **Identify the reader.** Find out who will read this, what they care about, how much detail they usually want, and whether they need to brief anyone else. Use the draft first, and ask the user only for what is missing. Done when you can name the reader and what they need to do.
+2. **Choose one purpose.** The message informs the reader, explores options with them, or asks for a decision. If the draft does more than one, tell the user and split it into separate messages or sections. Done when each message has one purpose.
+3. **Write the opening.** Write three short sentences: what the user needs, why it matters, and what happens if the reader does nothing. For an update with no request, state what happened, why it matters, and what happens next. Done when the reader could act on these three sentences alone.
+4. **Answer direct questions first.** If the reader asked a yes-or-no question, start with yes or no. State the conditions and risks right after the answer, and keep any real uncertainty. Done when the first sentence answers the question.
+5. **Sort the rest of the draft.** Keep a fact in the message only if the reader needs it to act. Put the reasoning below the opening or in an attachment. Hold everything else for the questions in step 6. Done when every fact from the draft has a place.
+6. **Prepare answers.** List the questions this reader will most likely ask, each with a short answer from the draft. A reader may question one detail to check that the user knows the work, so each answer needs to be specific. If the draft has no answer, tell the user. When a reader does question a detail, answer it, and change the opening only if the answer changes the decision. Done when each fact you held back sits under a question.
+7. **Edit the language.** Replace jargon, acronyms, and terms from the user's field that the reader would not use. Check any sentence over about twelve words, and split it if it carries more than one idea. Keep a longer sentence if splitting it would lose a condition or a precise term. Done when the reader would not need to ask what a word means.
+8. **Choose the format.** Writing suits information, and a conversation suits exploring options. For a decision, send the background before the meeting and use the meeting to decide. An urgent message says what happened, why it matters, and what happens if nobody acts, so the reader can respond without a follow-up question. Done when the format suits the purpose and the deadline.
+9. **End with the next step.** Name the next step, the person who owns it, and the date if the draft gives one. After a decision, offer a short written record of the decision, next steps, and owners for everyone affected. If the reader's reply leaves the next step unclear, draft a follow-up that asks for it directly. Done when anyone reading the message can see who does what next.
 
 ## Output
 
-Return these parts in order:
+1. **The message.** The rewritten draft.
+2. **Likely questions.** Each question with a short answer.
+3. **What changed.** One line for each thing you moved, split, or cut, so the user can restore it.
+4. **Questions for you.** Any date, number, or owner the draft is missing.
 
-1. The revised message.
-2. The prepared answers, as questions with short answers.
-3. One line for each thing you moved, split or cut.
+Keep the user's facts and voice. Mark anything you inferred.
 
-Keep the user's facts and their voice. Mark anything you inferred, and ask rather than invent a date, number, owner or commitment.
-
-## Common corrections
+## Examples
 
 | Not this | Do this | Why |
-|---|---|---|
-| If the remaining risks stay low and vendor access comes through by Friday, we should be able to deliver by March 1. | Yes, we can deliver by March 1 if vendor access is confirmed by Friday. | A direct question needs the answer first, then the condition. |
-| Background, then analysis, then a recommendation on page four. | The recommendation in the first sentence, with the analysis below it. | A reader can weigh the reasoning once they know where it leads. |
-| We need to align on the go-forward approach for the migration. | Please approve the move to Northline by Friday. | Name the action, the subject and the date. |
-| Someone questioned a number, so every report now includes the full data appendix. | The report stays the same, and the data is ready for questions. | One challenge does not change what most readers need. |
-| Thanks, everyone. Great discussion. | We approved Northline. Priya signs the contract by Friday. | A written record stops people from remembering the decision differently. |
+| --- | --- | --- |
+| If the remaining risks stay low and vendor access comes through by Friday, we should be able to deliver by March 1. | Yes, we can deliver by March 1 if vendor access is confirmed by Friday. | The reader asked a direct question, so the answer comes first and the condition follows. |
+| Background, then analysis, then a recommendation on page four. | The recommendation in the first sentence, with the analysis below it. | The reader can judge the reasoning once they know the recommendation. |
+| We need to align on the go-forward approach for the migration. | Please approve the move to Northline by Friday. | The reader needs to know the action, the subject, and the date. |
+| Someone questioned a number, so every report now includes the full data appendix. | The report stays the same, and the data is ready if someone asks. | One question does not change what most readers need. |
+| Thanks, everyone. Great discussion. | We approved Northline. Priya signs the contract by Friday. | People remember a decision differently after a few days, so the record states it. |
