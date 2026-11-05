@@ -10,19 +10,20 @@ This is a made-up example. Sam, a project lead at a dental group, needs Dana, th
 
 ### The message
 
-> Dana, please approve Northline as our scheduling system by Friday, March 6. It was the only option that passed both front-desk pilots within budget. If we don't have approval by Friday, we miss the April migration window and the current contract renews for another year at $18,000.
+> Dana, please approve Northline by Friday, March 6. It is the only option that passed both front-desk pilots within budget. Without approval, we renew the current contract for a year at $18,000.
 >
-> Priya will finish the contract review by Wednesday. If you approve, I will sign the order on Monday.
+> Priya finishes the contract review by Wednesday. If you approve, I will sign the order on Monday.
 
 ### Likely questions
 
-- **What about the data export?** The current vendor confirmed it can export our records during the April window, and we tested a sample in the second pilot.
-- **Why not the cheaper option?** It failed on rescheduling, which is the most frequent task at the front desk.
+- **Why Friday?** It is the deadline for the April migration window.
+- **What about the data export?** The current vendor confirmed it can export our records during the April window. We tested a sample in the second pilot.
+- **Why not the cheaper option?** It failed on rescheduling, the most frequent task at the front desk.
 
 ### What changed
 
 - I cut the six-week evaluation history.
-- I moved the data export concern to the likely questions.
+- I moved the April deadline and the data export concern to the likely questions.
 - I replaced "Let me know your thoughts" with the next step.
 
 ### Questions for you
