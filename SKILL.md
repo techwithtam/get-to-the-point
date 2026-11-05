@@ -38,7 +38,7 @@ Keep the user's facts and their voice. Mark anything you inferred, and ask rathe
 
 | Not this | Do this | Why |
 |---|---|---|
-| If the remaining risks stay low, we should be able to deliver most of this on time. | Yes, we can deliver by March 1. The main risk is vendor access, which we will confirm by Friday. | A direct question needs the answer first, then the condition. |
+| If the remaining risks stay low and vendor access comes through by Friday, we should be able to deliver by March 1. | Yes, we can deliver by March 1 if vendor access is confirmed by Friday. | A direct question needs the answer first, then the condition. |
 | Background, then analysis, then a recommendation on page four. | The recommendation in the first sentence, with the analysis below it. | A reader can weigh the reasoning once they know where it leads. |
 | We need to align on the go-forward approach for the migration. | Please approve the move to Northline by Friday. | Name the action, the subject and the date. |
 | Someone questioned a number, so every report now includes the full data appendix. | The report stays the same, and the data is ready for questions. | One challenge does not change what most readers need. |
