@@ -1,27 +1,31 @@
 # Get To The Point
 
-Put your request first and your detail behind it. Executives often read only the first few lines. If the request is not there, the decision waits.
+Get To The Point is a skill that rewrites a detailed draft for a senior reader. It moves your request and recommendation to the opening, then organizes your analysis behind them so the reader can decide without working through everything you know.
 
-This skill rewrites your draft that way.
+Project work produces a lot of detail, and the person who did the work tends to report all of it. A sponsor or executive usually has limited time for any one project, so a recommendation on page four can go unread and the decision gets delayed. The skill keeps your detail, because you will need it when a reader challenges a specific point, but it takes that detail out of the opening.
+
+Use it for status updates, business cases, escalations, executive summaries, and decision requests.
 
 **[Download the skill ZIP](https://github.com/techwithtam/get-to-the-point/releases/latest/download/get-to-the-point.zip)** · [Read the skill](SKILL.md) · [See an example](examples/vendor-decision.md)
 
 ## What you get
 
-- **A new opening.** Three short sentences state what you need, why it matters, and what happens without action.
-- **Your detail, reorganized.** The message keeps what the reader needs to act. The rest moves below the opening.
-- **Prepared answers.** You get the questions your reader is likely to ask, with short answers.
-- **A clear next step.** The message names the action, the owner, and the date.
+- **An opening the reader can act on.** The first few sentences state what you need, why it matters, and what happens if the reader doesn't act. For many readers, those sentences are enough to make the decision.
+- **Supporting detail in the right place.** Facts the reader needs in order to act stay in the message. Your reasoning moves below the opening, and everything else moves into the prepared answers.
+- **Prepared answers to likely questions.** Readers often test one detail to check that you know the work. The skill lists the questions this reader is most likely to ask, with answers drawn from your draft.
+- **A defined next step.** The message ends with the action, its owner, and the due date. After the decision, the skill can draft a short written record for the people affected.
 
-The skill keeps your facts and your voice. If a date, number, or owner is missing, it asks you.
+The skill keeps your facts and your voice, and it marks anything it inferred. If a date, figure, or owner is missing from your draft, it asks you for it instead of guessing.
 
 No plugins, code, API keys, or account connections are required.
 
 ## Start with your draft
 
-> Get to the point on this draft. My reader is [who they are]. I need them to [what you need them to do]. [Paste your draft.]
+Give the skill your draft, tell it who will read the message, and state what you need that person to do.
 
-Check the first three sentences before you send it.
+> Get to the point on this draft. My reader is [role and relationship]. I need them to [decision or action]. [Paste your draft.]
+
+Review the opening before you send the message, because the skill only knows what you have told it about your reader.
 
 ## Upload to Claude
 
@@ -62,6 +66,6 @@ get-to-the-point/
 
 ## Credits
 
-Based on [Project HEADWAY: Get To The Point](https://www.projectmanagement.com/webinars/1232762/project-headway--get-to-the-point), a webinar by Mark Mullaly on ProjectManagement.com. See [NOTICE.md](NOTICE.md).
+The method adapts ideas from [Project HEADWAY: Get To The Point](https://www.projectmanagement.com/webinars/1232762/project-headway--get-to-the-point), a webinar by Mark Mullaly on ProjectManagement.com. See [NOTICE.md](NOTICE.md).
 
 Created by [Tech With Tam](https://techwithtam.com). Released under the [MIT License](LICENSE).
