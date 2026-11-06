@@ -1,7 +1,7 @@
 interface:
   display_name: Get To The Point
-  short_description: Rewrite a detailed draft for a senior reader
-  default_prompt: Use $get-to-the-point to rewrite my draft so my reader can act on it.
+  short_description: Rewrite a draft so a decision-maker understands the ask
+  default_prompt: Use $get-to-the-point to rewrite my draft so the decision-maker understands the ask immediately.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

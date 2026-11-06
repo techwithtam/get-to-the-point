@@ -1,30 +1,38 @@
-# Example: a scheduling software decision
+# Example: a phone system decision
 
-This is a made-up example. Sam, a project lead at a dental group, needs Dana, the operations director, to approve a new scheduling vendor. Sam pasted the draft below and asked the skill to get to the point. The result follows.
+This is a synthetic example. Nadia leads a phone system replacement at a veterinary clinic group. She needs approval from Owen, the chief operating officer, so she gave the skill her draft and named Owen as the decision-maker.
 
 ---
 
-### Sam's draft
+### Nadia's draft
 
-> Hi Dana, I wanted to give you an update on the scheduling software evaluation. Over the past six weeks the team reviewed four vendors, ran two front-desk pilots and collected feedback. Northline was the only option that passed both pilots within budget. The cheaper option failed on rescheduling, which is the most frequent task at the desk. We had concerns about the data export, but the current vendor confirmed it can export our records during the April migration window, and we tested a sample in the second pilot. Priya will finish the contract review by Wednesday. If we don't have approval by Friday, March 6, we miss the April window and the current contract renews for another year at $18,000. If you approve, I will sign the order on Monday. Let me know your thoughts.
+> Hi Owen, I wanted to give you an update on the phone system project. We kicked off in January and the working group has met every two weeks since then. We sent the RFP to five vendors, three responded, and we ran scored demos against the requirements matrix. We then piloted Clearline and Bellwether at two clinics. Clearline came in at $96,000 a year and Bellwether at $78,000. Bellwether looks better on cost, but its after-hours routing failed in both pilots and emergency calls went to voicemail. Clearline passed both pilots. Legal has redlines on the data processing addendum and expects to finish by Thursday. IT is working through SIP trunk porting, and the number port has a 10-day lead time. You asked at the steering committee whether we can be live before the Tri-County contract ends on June 30. Assuming the port goes smoothly, Legal finishes on time, and the clinics can release staff for training, we should be able to have all six clinics live by June 26. If we don't give Tri-County notice by May 15, the contract renews for 12 months at $88,000. I recommend Clearline. If you approve, I'll give Tri-County notice and sign with Clearline once Legal finishes. Let me know your thoughts.
 
 ### The message
 
-> Dana, please approve Northline as our scheduling system by Friday, March 6. It is the only option that passed both front-desk pilots within budget. Without approval by Friday, we will miss the April migration window and the current contract will renew for another year at $18,000.
+> Owen, please approve Clearline as our new phone system by May 15. Bellwether costs $18,000 a year less, but it sent after-hours emergency calls to voicemail in both pilots, and Clearline passed both. If we don't give Tri-County notice by May 15, the current contract renews for 12 months at $88,000.
 >
-> Priya will finish the contract review by Wednesday. If you approve, I will sign the order on Monday.
+> You asked whether we can be live before that contract ends on June 30. Yes. We can have all six clinics live by June 26 if Legal finishes by Thursday, our phone numbers transfer within the 10-day lead time, and the clinics release staff for training.
+>
+> If you approve, I will give Tri-County notice and sign with Clearline once Legal finishes.
 
 ### Likely questions
 
-- **What about the data export?** The current vendor confirmed it can export our records during the April window, and we tested a sample in the second pilot.
-- **Why not the cheaper option?** It failed on rescheduling, which is the most frequent task at the front desk.
+- **How did you evaluate the vendors?** We sent the RFP to five vendors, and three responded. We ran scored demos against our requirements, then piloted Clearline and Bellwether at two clinics.
+- **What is Legal reviewing?** Legal has requested changes to the data processing addendum and expects to finish by Thursday.
+- **What is IT working on?** IT is working on the transfer of our phone numbers, which has a 10-day lead time.
 
 ### What changed
 
-- I cut the six-week evaluation history.
-- I moved the data export concern and the comparison with the cheaper option to the likely questions.
+- I cut the January kickoff and the working group's meeting schedule.
+- I moved the vendor evaluation and the status of Legal and IT to the likely questions, and kept their conditions in the message.
+- I replaced "redlines" and "SIP trunk porting" with plain terms.
+- I inferred two things: the May 15 approval date, from the notice deadline, and the $18,000 difference, from the two annual prices.
+- I put the answer to Owen's question ahead of its conditions.
 - I replaced "Let me know your thoughts" with the next step.
 
 ### Questions for you
 
-- What happens if the contract review finds a problem? Your draft doesn't say, and Dana may ask.
+- Your draft says you "should be able to" have all six clinics live by June 26, and I wrote "Yes." Can you stand behind that answer?
+- Does the June 26 date hold if the number transfer takes longer than 10 days? Your draft doesn't say, and Owen may ask.
+- Is there a one-time cost for the switch? Your draft gives only annual prices.

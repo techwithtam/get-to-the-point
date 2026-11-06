@@ -1,56 +1,15 @@
 # Get To The Point
 
-Get To The Point is a skill that rewrites a detailed draft for a senior reader. It moves your request and recommendation to the opening, then organizes your analysis behind them so the reader can decide without working through everything you know.
+Rewrite a draft so a decision-maker understands the ask immediately.
 
-Project work produces a lot of detail, and the person who did the work tends to report all of it. A sponsor or executive usually has limited time for any one project, so a recommendation on page four can go unread and the decision gets delayed. The skill keeps your detail, because you will need it when a reader challenges a specific point, but it takes that detail out of the opening.
+Decision-makers have very little time. In the first few lines, they need to know what's happening, what's needed from them, and what their options are. This skill puts that first and keeps your supporting detail ready for questions.
 
-Use it for status updates, business cases, escalations, executive summaries, and decision requests.
+Use it for status updates, business cases, escalations, executive summaries, and decision requests for executives, leaders, and managers.
 
-**[Download the skill ZIP](https://github.com/techwithtam/get-to-the-point/releases/latest/download/get-to-the-point.zip)** · [Read the skill](SKILL.md) · [See an example](examples/vendor-decision.md)
+**[Download the skill ZIP](https://github.com/techwithtam/get-to-the-point/releases/latest/download/get-to-the-point.zip)**
+· [Read the skill](SKILL.md) · [See an example](examples/vendor-decision.md)
 
-## What you get
-
-- **An opening the reader can act on.** The first few sentences state what you need, why it matters, and what happens if the reader doesn't act. For many readers, those sentences are enough to make the decision.
-- **Supporting detail in the right place.** Facts the reader needs in order to act stay in the message. Your reasoning moves below the opening, and everything else moves into the prepared answers.
-- **Prepared answers to likely questions.** Readers often test one detail to check that you know the work. The skill lists the questions this reader is most likely to ask, with answers drawn from your draft.
-- **A defined next step.** The message ends with the action, its owner, and the due date. After the decision, the skill can draft a short written record for the people affected.
-
-The skill keeps your facts and your voice, and it marks anything it inferred. If a date, figure, or owner is missing from your draft, it asks you for it instead of guessing.
-
-No plugins, code, API keys, or account connections are required.
-
-## Start with your draft
-
-Give the skill your draft, tell it who will read the message, and state what you need that person to do.
-
-> Get to the point on this draft. My reader is [role and relationship]. I need them to [decision or action]. [Paste your draft.]
-
-Review the opening before you send the message, because the skill only knows what you have told it about your reader.
-
-## Upload to Claude
-
-1. Download the ZIP above. Keep it zipped.
-2. In Claude, open **Customize > Skills**, then **+ > Create skill > Upload a skill**.
-3. Upload `get-to-the-point.zip` and turn the skill on.
-4. Open a chat and send the request above.
-
-Claude requires **Code execution and file creation** to be enabled under **Settings > Capabilities**. A team administrator may control skill uploads. [Claude's upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude) cover those settings. Skills you upload also work in Cowork.
-
-## Use in ChatGPT
-
-1. Download the same ZIP and attach it to a ChatGPT Work chat that can open files.
-2. Ask: "Unzip this file, read SKILL.md, and use the skill on my draft."
-3. Add the request above.
-
-If your chat cannot open the ZIP, unzip it yourself and attach `SKILL.md`, or paste its contents. Saving a skill for reuse depends on your app and workspace. [OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills) explains the supported skill environments.
-
-## Install for Claude Code, Codex, Cursor, and other agents
-
-```bash
-npx skills add techwithtam/get-to-the-point
-```
-
-## What's in the ZIP
+The ZIP contains the complete skill folder:
 
 ```text
 get-to-the-point/
@@ -63,6 +22,54 @@ get-to-the-point/
 └── assets/
     └── icon.svg
 ```
+
+`SKILL.md` holds the complete method, and the assistant needs no other file to run it.
+
+No plugins, code, API keys, or account connections are required.
+
+## What it does
+
+Give it your draft, tell it who the decision-maker is, and say what you need from them. It returns four things:
+
+- **The message.** It opens with what's needed, why it matters, and what happens without action. Your options follow, with the implications of each. If the decision-maker asked a direct question, the answer comes before the conditions.
+- **Likely questions.** Supporting detail moves here, as answers you can give when asked. Decision-makers often test one detail to find out whether you know the work, and a clear answer builds confidence in the rest of your message.
+- **What changed.** The skill lists everything it moved, split, or cut, so you can restore it.
+- **Questions for you.** The skill asks you for any missing date, figure, or owner, and it marks anything it inferred.
+
+Each message has one intent: to inform, to explore options, or to get a decision. When your draft does more than one, the skill separates them, because each takes a different kind of thinking and people need time to move between them.
+
+After the reply, the skill can draft your follow-up. When the answer is a maybe, the follow-up asks for the next step. When the answer is clear, it records the decision, the next steps, and their owners, so everyone works from the same version.
+
+## Upload to Claude
+
+1. Download the ZIP above. Keep it zipped.
+2. In Claude, open **Customize > Skills**, then **+ > Create skill > Upload a skill**.
+3. Upload `get-to-the-point.zip` and turn the skill on.
+4. Open a chat and send the request below.
+
+Claude requires **Code execution and file creation** to be enabled under **Settings > Capabilities**. A team administrator may control skill uploads. [Claude's upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude) cover those settings. Skills you upload also work in Cowork.
+
+## Use in ChatGPT
+
+1. Download the same ZIP and attach it to a ChatGPT Work chat that can open files.
+2. Ask: "Unzip this file, read SKILL.md, and use the skill on my draft."
+3. Add the request below.
+
+If your chat cannot open the ZIP, unzip it yourself and attach `SKILL.md`, or paste its contents. Saving a skill for reuse depends on your app and workspace. [OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills) explains the supported skill environments.
+
+## Install for Claude Code, Codex, Cursor, and other agents
+
+```bash
+npx skills add techwithtam/get-to-the-point
+```
+
+## Start with your draft
+
+Write everything down first, including the conditions and qualifications. The skill needs that detail to prepare the likely questions.
+
+> Get to the point on this draft. The decision-maker is [role and relationship to me]. I need them to [decide, approve, or know something]. [Paste your draft.]
+
+Review the message and anything marked as inferred before you send it.
 
 ## Credits
 
